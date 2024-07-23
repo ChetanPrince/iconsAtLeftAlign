@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.46), rgba(197, 197, 38, 0.59));
     background-repeat: none;
+    
 }
 p{
     
@@ -20,11 +21,11 @@ p{
 
 }
 #container{
-    width: 150px;
     height: 350px;
-    overflow: hidden;
     position: fixed;
     margin-top: 30px;
+    right: 0;
+    margin-right: 10px;
 }
 button{
     width: 50px;
